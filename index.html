@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .message{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            border: 1px transparent wheat;
+            width: 500px;
+            height: 70px;
+            align-items: center;
+            margin-top: 50%;
+            font-size: 45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: lighter;
+            text-shadow: 2px 1px rgb(138, 141, 138);
+            box-shadow: 1px 1px 2px 1px rgb(138, 141, 138);
+            color: rgb(26, 9, 9);
+            border-radius: 5px;
+        }
+        #output{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            align-items: center;
+            margin-top: 50px;
+            border: 1px transparent;
+            width: 150px;
+            height: 200px;
+            text-shadow: 2px 2px rgb(0, 0, 0);
+            box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(138, 141, 138, 0.5);
+            font-size: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(39, 143, 39);
+            border-radius: 5px;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p id="text">Press any key</p>
+    </div>
+    
+    <div id="output"></div>
+
+    <script type="module" src="./Exercice_lvl_1.js"></script>
+
+</body>
+</html>
